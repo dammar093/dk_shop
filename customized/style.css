@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    overflow-x: hidden;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F8F8FF;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+    position: sticky;
+    top: 0;z-index: 100;
+    
+}
+.nav .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+.nav .logo h2,i{
+    font-size: 20px;
+    padding: 0 2px;
+    color: #4B4B4B;
+    font-weight: 700;
+}
+.nav .links ul{
+     display: flex;
+}
+.nav .links ul li{
+    list-style: none;
+    padding: 12px;
+    
+}
+.nav .links ul li a{
+    text-decoration: none;
+    color: #4B4B4B;
+    font-size: 14px;
+    font-weight: 300;
+    transition: .2s ease;
+}
+.nav .links ul li a:hover{
+    border-bottom: 2px solid #4b4b4b;
+}
+.search{
+    position: relative;
+}
+.search input{
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    padding: 0 14px;
+}
+.search i{
+    position: absolute;
+    font-size: 12px;
+    right: 8px;
+    top: 9px;
+}
+.cart i{
+    cursor: pointer;
+    margin: 0 10px;
+}
+#menu-bar{
+    display: none;
+}
+.navbar{
+    display: none;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero .hero-img img{
+     width: 100%;
+     height: 425px;
+}
+.hero-categori{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #F8F8FF;
+}
+.hero-categori h4{
+    color: #4B4B4B;
+    padding: 0 8px;
+    font-size: 18px;
+}
+.hero-categori a{
+   line-height: 2rem;
+   text-decoration: none;
+   font-size: 14px;
+   color: #4B4B4B;
+}
+.hero-categori input{
+    outline: none;
+    background-color: blue;
+    border: none;
+    border-radius: 6px;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 10px;
+}
+.hero-categori input:hover{
+    color: blue;
+    background-color: #fff;
+    border:1px solid blue;
+}
+
+section{
+    margin:0 30px;
+    color: #4B4B4B;
+}
+#service{
+    margin-top: 20px;
+    color: #4B4B4B;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#service h2{
+    text-align: center;
+}
+.services .services-box{
+    border: 1px solid blue;
+    margin: 12px;
+    padding: 20px;
+    border-radius: 12px;
+    transition: all 0.5 s ease;
+}
+.services .services-box:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 1px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transform: scale(1);
+}
+
+
+.services-box img{
+    height: 150px;
+    width: 150px;
+}
+.services-title{
+    margin: 50px;
+}
+.services-title h4{ 
+    text-align: center;
+    
+}
+button{
+    margin-top: 12px;
+    padding: 5px;
+    background-color: blue;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    font-size: 10px;
+    cursor: pointer;
+}
+button:hover
+{
+    color: blue;
+    border:  1px solid blue;
+    background-color: #fff;
+    
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8FF;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.about-us .about-img{
+    /* width: 30%; */
+    padding: 12px;
+}
+.about-us .about-img img{
+    height: 300px;
+    width: 100%;
+}
+ .about-us .about-para .btn{
+    margin-left: 50%;
+
+} 
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F8F8FF;
+
+}
+.contact-form p{
+    padding: 10px;
+}
+textarea{
+    resize: none;
+    outline: none;
+}
+.contact-form p input{
+    outline: none;
+}
+.contact-form p .btn{
+    background-color: blue;
+    outline: none;
+    border: none;
+    padding: 8px;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 90px;
+}
+footer p{
+    padding: 10px;
+    font-size: 14px;
+    background-color:#eaf2ff;
+}

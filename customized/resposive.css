@@ -1,0 +1,94 @@
+@media only screen and (max-width: 676px) {
+
+    .nav .logo h2,
+    i {
+        font-size: 13px;
+    }
+
+    .search input {
+        width: 140px;
+        padding: 0 20px;
+    }
+
+    .links ul li a {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+
+    .hero-img img {
+        width: 100px;
+        height: 100px;
+    }
+
+    button .btn {
+        margin-left: 222px;
+    }
+    .links {
+        display: none;
+    
+    }
+    
+    .cart {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    #menu-bar {
+        display: block;
+    }
+    
+    .search input {
+        width: 92px;
+        padding: 5px;
+        font-size: 10px;
+        width: 90px;
+
+    }
+    
+    .search i {
+        font-size: 10px;
+    }
+    
+    .nav .logo h2 {
+        font-size: 10px;
+    }
+    .navbar,.navlinks{
+        display: block;
+        position: absolute;
+        margin-right: 20px;
+        margin-top: 37px;
+        float: right;
+        text-decoration: none;
+        background-color: brown;
+        height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+        text-align: center;
+        line-height: 50px;
+        z-index: 2;
+    }
+    .navlinks ul{
+        margin-top: 100px;
+    }
+    .navlinks a{
+        color: white;
+    }
+    .navlinks a:hover{
+        border-bottom: 2px solid white;
+    }
+    textarea{
+        width: 180px;
+    }
+    .hero-categori{
+        padding: 20px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
+
+
+
+
